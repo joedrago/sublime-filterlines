@@ -2,5 +2,7 @@
     { "caption": "Filter Lines: Filter With Regex", "command": "prompt_filter_to_lines", "args": { "search_type": "regex" } },
     { "caption": "Filter Lines: Filter With String", "command": "prompt_filter_to_lines", "args": { "search_type": "string" } },
     { "caption": "Filter Lines: Fold With Regex", "command": "prompt_fold_to_lines", "args": { "search_type": "regex" } },
-    { "caption": "Filter Lines: Fold With String", "command": "prompt_fold_to_lines", "args": { "search_type": "string" } }
+    { "caption": "Filter Lines: Fold With String", "command": "prompt_fold_to_lines", "args": { "search_type": "string" } },
+    { "caption": "Filter Lines: Fold With Regex Inverted", "command": "prompt_fold_to_lines_inverted", "args": { "search_type": "regex" } },
+    { "caption": "Filter Lines: Fold With String Inverted", "command": "prompt_fold_to_lines_inverted", "args": { "search_type": "string" } }
 ]

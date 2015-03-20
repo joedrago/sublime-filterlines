@@ -1,4 +1,6 @@
-[  
+[
     { "keys": ["ctrl+k", "ctrl+r"], "command": "prompt_filter_to_lines", "args": { "search_type": "regex" } },
-    { "keys": ["ctrl+k", "ctrl+s"], "command": "prompt_filter_to_lines", "args": { "search_type": "string" } }
-] 
+    { "keys": ["ctrl+k", "ctrl+s"], "command": "prompt_filter_to_lines", "args": { "search_type": "string" } },
+    { "keys": ["ctrl+k", "ctrl+t"], "command": "prompt_fold_to_lines_inverted", "args": { "search_type": "regex" } },
+    { "keys": ["ctrl+k", "ctrl+d"], "command": "prompt_fold_to_lines_inverted", "args": { "search_type": "string" } }
+]
